@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <div>
+        <form action="/login1" method="post">
+            <div class="userInput">
+                <label for="username">Username : </label>
+                <input type="text" name="username">
+            </div>
+            <div class="passInput">
+                <label for="password">password : </label>
+                <input type="text" name="password">
+            </div>
+            <% if(locals.inval){ %>
+                <h3><%= inval %></h3>
+            <% } %>
+            
+            <a href="/signup">Sign Up</a>
+            <div id = "submit">
+                <button type="submit" class = "submitbutton">Submit</button>
+            </div>
+        </form>
+    </div>
+    
+    
+</body>
+</html>

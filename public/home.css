@@ -1,0 +1,19 @@
+body{
+    background-color:  rgb(234, 234, 234);
+}
+.postContainer>form >div{
+    height: 100vh;
+    background-color: rgb(234, 234, 234);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: start;
+
+}
+.div1{
+    background-color: rgb(215, 215, 215);
+    min-width: 200px;
+    max-width: 32%;
+    border-radius: 10px;
+    padding: 10px;
+}
